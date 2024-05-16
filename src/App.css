@@ -1,0 +1,44 @@
+.dropdown-menu{
+    width: 90%;
+}
+header .btn{
+    border: 1px solid black;
+    margin-left: 65%;
+}
+.btn:hover{
+ background-color: black;
+ color: white;
+}
+.title{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding-top: 100px;
+    margin-bottom: 90px;
+}
+.title h1{
+    font-weight: bold;
+    
+}
+
+
+.badge{
+    top: 0.5rem; 
+    right: 0.5rem;
+}
+
+@media only screen and (max-width: 982px) {
+    header .btn{
+    margin: 0px;
+    }
+    }
+@media only screen and (max-width: 435px) {
+    .col{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+    }
+    
